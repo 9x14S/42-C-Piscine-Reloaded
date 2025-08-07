@@ -3,7 +3,7 @@
 
 #define BUFSIZE 0x800
 
-int		read_loop(int fd)
+int	read_loop(int fd)
 {
 	int		total;
 	int		read_amount;
@@ -20,7 +20,7 @@ int		read_loop(int fd)
 	return (total);
 }
 
-int		handle_file(char *filepath)
+int	handle_file(char *filepath)
 {
 	int	fd;
 
